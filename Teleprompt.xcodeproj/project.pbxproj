@@ -21,6 +21,8 @@
 		6666106A1913FBC000BFCBBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6666104C1913FBBF00BFCBBA /* UIKit.framework */; };
 		666610721913FBC000BFCBBA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 666610701913FBC000BFCBBA /* InfoPlist.strings */; };
 		666610741913FBC000BFCBBA /* TelepromptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 666610731913FBC000BFCBBA /* TelepromptTests.m */; };
+		6666107F1913FC2300BFCBBA /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6666107E1913FC2300BFCBBA /* CameraViewController.m */; };
+		66D6CCB019143521006A472F /* CustomOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D6CCAF19143521006A472F /* CustomOverlayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		6666106F1913FBC000BFCBBA /* TelepromptTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TelepromptTests-Info.plist"; sourceTree = "<group>"; };
 		666610711913FBC000BFCBBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		666610731913FBC000BFCBBA /* TelepromptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TelepromptTests.m; sourceTree = "<group>"; };
+		6666107D1913FC2300BFCBBA /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		6666107E1913FC2300BFCBBA /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		66D6CCAE19143521006A472F /* CustomOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomOverlayViewController.h; sourceTree = "<group>"; };
+		66D6CCAF19143521006A472F /* CustomOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomOverlayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +118,13 @@
 		6666104E1913FBBF00BFCBBA /* Teleprompt */ = {
 			isa = PBXGroup;
 			children = (
+				6666105A1913FBBF00BFCBBA /* Main.storyboard */,
+				66D6CCAE19143521006A472F /* CustomOverlayViewController.h */,
+				66D6CCAF19143521006A472F /* CustomOverlayViewController.m */,
+				6666107D1913FC2300BFCBBA /* CameraViewController.h */,
+				6666107E1913FC2300BFCBBA /* CameraViewController.m */,
 				666610571913FBBF00BFCBBA /* AppDelegate.h */,
 				666610581913FBBF00BFCBBA /* AppDelegate.m */,
-				6666105A1913FBBF00BFCBBA /* Main.storyboard */,
 				6666105D1913FBBF00BFCBBA /* ViewController.h */,
 				6666105E1913FBBF00BFCBBA /* ViewController.m */,
 				666610601913FBBF00BFCBBA /* Images.xcassets */,
@@ -250,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6666105F1913FBBF00BFCBBA /* ViewController.m in Sources */,
+				6666107F1913FC2300BFCBBA /* CameraViewController.m in Sources */,
 				666610591913FBBF00BFCBBA /* AppDelegate.m in Sources */,
 				666610551913FBBF00BFCBBA /* main.m in Sources */,
+				66D6CCB019143521006A472F /* CustomOverlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +468,7 @@
 				666610791913FBC000BFCBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6666107A1913FBC000BFCBBA /* Build configuration list for PBXNativeTarget "TelepromptTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +477,7 @@
 				6666107C1913FBC000BFCBBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
